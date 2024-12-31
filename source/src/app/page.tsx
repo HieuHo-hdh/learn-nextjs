@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="/next.svg"
+          src="/assets/next.svg"
           alt="Next.js logo"
           width={180}
           height={38}
@@ -32,7 +32,7 @@ export default function Home() {
           >
             <Image
               className="dark:invert"
-              src="/vercel.svg"
+              src="/assets/vercel.svg"
               alt="Vercel logomark"
               width={20}
               height={20}
@@ -58,10 +58,17 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/file.svg"
+            src="/assets/file.svg"
             alt="File icon"
             width={16}
             height={16}
+          />
+          <Image
+            aria-hidden
+            src={'https://res.cloudinary.com/dl7sebgzo/image/upload/v1735533385/learn-nextjs/ca%20phe%20viet%20nam/ca_phe_gao_rang_l3sbst.jpg'}
+            alt="File icon"
+            width={20}
+            height={20}
           />
           Learn
         </a>
@@ -73,7 +80,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src="/assets/window.svg"
             alt="Window icon"
             width={16}
             height={16}
@@ -86,13 +93,6 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
           Go to nextjs.org →
         </a>
       </footer>
